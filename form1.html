@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My First form</title>
+  </head>
+  <body>
+    <h1>Python Regtration form</h1>
+    <form action="getdata.py" method="post">
+      <label for="un"> Username :</label><sup>*</sup>
+      <input id="un" name="unmae" type="text" required /><br /><br />
+      <label form="pwd">Password :</label><sup>*</sup>
+      <input type="password" id="pwd" name="password" required /><br /><br />
+      <label for="em">Email Id :</label><sup>*</sup>
+      <input type="email" id="em" name="email" required /><br />
+      Gender :
+      <input type="radio" id="m" name="gender" />
+      <label for="m">Male</label>
+      <input type="radio" id="f" name="gender" />
+      <label for="f">Female</label><br />
+      Languages Known :
+
+      <input type="checkbox" id="T" name="Tel" />
+      <label for="T">Telugu</label>
+      <input type="checkbox" id="E" name="Eng" />
+      <label for="E">English</label>
+      <input type="checkbox" id="H" name="Hin" />
+      <label for="H">Hindi</label><br /><br />
+
+      <button type="submit" id="s" name="submit">Register</button>
+    </form>
+  </body>
+</html>
