@@ -1,5 +1,4 @@
-# html-Practice
+# Frontend-Practice
 HTML practice projects and examples
-## Run
-HTML files.html
+
 
