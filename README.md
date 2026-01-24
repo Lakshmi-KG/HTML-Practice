@@ -1,4 +1,4 @@
 # Frontend-Practice
-HTML practice projects and examples
+Frontend practice and examples
 
 
